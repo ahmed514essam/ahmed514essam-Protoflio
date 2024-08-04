@@ -1,0 +1,61 @@
+.navfooterEd {
+    display: none;
+}
+@media (max-width:980px) {
+    .navfooterEd {
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(3, 16, 24) !important;
+        justify-content: space-around;
+        height: 70px;
+        align-items: center;
+        border-top: 1px solid rgb(109, 109, 109);
+       
+    }
+  .alliss {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+  }
+  .alliss:hover .fa-solid {
+    color: rgb(31, 81, 90);
+  }
+  
+  .alliss:hover .icorys {
+    color: rgb(31, 81, 90);
+  }
+  
+
+  
+  .alliss:hover .fa-solid {
+    color: rgb(31, 81, 90);
+  }
+  
+  .alliss:hover .icorys {
+    color: rgb(31, 81, 90);
+  }
+  
+  .alliss:hover .icorys {
+    color: rgb(31, 81, 90);
+  }
+  
+
+
+  .nav-link.active .icorys,
+  .nav-link.active .fa-solid {
+    color: rgb(70, 177, 196); 
+  }
+}
+
+
+
+
+
+
+
+

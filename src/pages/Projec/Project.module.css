@@ -1,0 +1,228 @@
+.secOnContact {
+    background-color: rgb(10, 10, 10) !important;
+    width: 100%;
+    height: 100%; /* Ensure the section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5rem;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(70, 177, 196); 
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+@media (max-width: 770px) {
+    .secOnContact {
+        height: auto; /* Allow height to adjust based on content */
+        padding-bottom: 50px;
+    }
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px; /* Optional: Limit the maximum width of the content */
+    margin: auto;
+    padding-top: 20px;
+    display: grid;
+    gap: 2px; /* Adjust the gap between items as needed */
+    grid-template-columns: repeat(3, 1fr); /* Default to 3 items per row */
+}
+
+@media (max-width: 1285px) {
+    .content {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 986px) {
+    .content {
+        margin-left: 0px;
+    }
+}
+
+.imgProjects img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.imgProjects {
+    width: 95%;
+    margin: auto;
+    top: 10px;
+    right: 0;
+    left: 0;
+    border: 0;
+    padding-top: 13px;
+    transition: transform .2s;
+    overflow: hidden;
+}
+.imgProjects:hover img  {
+
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    border-radius: 8px;
+}
+.nnmm {
+    position: absolute;
+    width: 40px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(70, 177, 196);
+    margin-top: 10px;
+}
+
+.nnmm span {
+    color: rgb(70, 177, 196);
+}
+
+.proj {
+    width: 410px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(3, 16, 24);
+    margin-bottom: 20px;
+    margin-left: 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ppara h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-top: 5px;
+    color: white;
+}
+
+.btnAndLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.btnAndLink Link {
+    text-decoration: none;
+}
+
+.btnAndLink button {
+    padding: 3px 3px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: rgb(70, 177, 196);
+    color: rgb(10, 10, 10);
+    border: 0;
+    font-weight: 600;
+    margin-left: 17px;
+}
+
+.btnAndLink button:hover {
+    opacity: 80%;
+}
+
+.linDem {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+.IconLiRepo {
+    font-size: 2em;
+    margin-right: 16px;
+    color: rgb(70, 177, 196);
+    fill: rgb(70, 177, 196);
+}
+
+@media (max-width: 1200px) {
+    .content {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on medium screens */
+        padding-left: 30px;
+    }
+    .proj {
+width: 320px;
+
+
+
+    }
+}
+
+@media screen and (max-width:1187px) and (min-width:1027px) {
+    
+
+.proj {
+width: 400px;
+}
+
+
+}
+@media screen and (max-width:1022px) and (min-width:930px){
+
+.content{
+
+padding-left: 100px;
+
+
+}
+
+
+}
+    
+@media screen and  (max-width:1285px) and (min-width:1199px) 
+ {
+    
+
+    .proj {
+    width: 320px;
+    }
+    
+    
+    }  
+    
+    @media (min-width:1285px) {
+    .content {
+gap: 50px;
+margin-right: 14rem;
+    }
+    }
+
+
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr; /* 1 item per row on small screens */
+        margin: auto;
+    }
+
+    .proj {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content {
+        gap: 50px;
+    }
+}

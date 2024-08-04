@@ -1,0 +1,180 @@
+/* General Reset */
+* {
+    color: white; /* Ensure text is white everywhere */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Container */
+  .mainBG {
+    background-color: rgb(3, 16, 24) !important;
+    color: white !important;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid rgb(123, 123, 123);
+    z-index: 1000;
+  }
+  
+  @media (min-width:996px) {
+    .nav-item {
+      padding-right: 10px;
+    }
+  
+  
+  
+  }
+  @media (max-width:500px) {
+    .mainBG {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  }
+  /* Navbar Brand */
+  .navbar-brand {
+   
+    font-weight: 900;
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: white;
+  }
+  .heads {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 900;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+  .icorye:hover {
+  color: rgb(31, 81, 90);
+  }
+  /* Navbar Toggler */
+  .navbar-toggler {
+    border: 2px solid rgb(70, 177, 196);
+    outline: none;
+    z-index: 1001;
+    color: rgb(70, 177, 196);
+  }
+  .navbar-toggler:active {
+    border:none;
+    outline: none;
+    z-index: 1001;
+   
+  }
+  .navbar-toggler:focus {
+    border:none;
+    outline: none;
+    z-index: 1001;
+   
+  }
+  
+  .navbar-toggler .fa-bars,
+  .navbar-toggler .fa-times {
+    font-size: 1.5rem;
+    color: blue; 
+  }
+  
+  .collapse.navbar-collapse {
+    background-color: rgb(3, 16, 24);
+    padding-left: 20px;
+    position: relative;
+    z-index: 1002;
+  }
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    background-color: rgb(3, 16, 24); 
+  }
+  
+  .navbar-nav .nav-link {
+    color: white; 
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+  }
+  
+  /* .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+  } */
+  
+  .allio:hover .fa-solid {
+    color: rgb(31, 81, 90);
+  }
+  
+  .allio:hover .icorye {
+    color: rgb(31, 81, 90);
+  }
+  
+  .allio:hover .icory {
+    color: rgb(31, 81, 90);
+  }
+  
+  .allis:hover .fa-solid {
+    color: rgb(31, 81, 90);
+  }
+  
+  .allis:hover .icorye {
+    color: rgb(31, 81, 90);
+  }
+  
+  .allis:hover .icory {
+    color: rgb(31, 81, 90);
+  }
+  
+  
+  
+  .nav-link.active .icory,
+  .nav-link.active .fa-solid {
+    color: rgb(70, 177, 196); 
+  }
+  
+  
+  
+  
+  
+  
+  @media (max-width: 773px) {
+    .icory {
+      padding-left: 20px;
+    }
+    .icorye {
+      padding-left: 29px;
+    }
+  }
+  .spanHead {
+    color: rgb(70, 177, 196);
+  }
+  .likss:hover {
+    text-decoration: none;
+  }
+  .allio:hover {
+    color: rgb(31, 81, 90);
+  }
+  
+  .navio:hover {
+    color: rgb(70, 177, 196);
+  }
+  .icory:hover {
+    color: rgb(31, 81, 90);
+  }
+  .selectLin:hover {
+    color: rgb(31, 81, 90);
+  }
+  
+  @media (max-width:800px) {
+    
+    .aboutSapn {
+      padding-left: 7px;
+    }
+  .aboutSSpaWord {
+    padding-left: 27px;
+  }
+  }
