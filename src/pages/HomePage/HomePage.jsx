@@ -20,17 +20,17 @@ function onn() {
 
         <span className="span">
         <a className="aaaSocial fa" href="https://www.facebook.com/ahmed.egyptian.9889/" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook-f"></i>
+        <i className="fa-brands fa-facebook-f"></i>
       </a>
 </span>
 <span className="span">
-<a href="https://api.whatsapp.com/send?phone=+201094461846&text=Hi" target="_blank" className='aaaSocial wh'><i class="fa-brands fa-whatsapp"></i></a>
+<a href="https://api.whatsapp.com/send?phone=+201094461846&text=Hi" target="_blank" className='aaaSocial wh'><i className="fa-brands fa-whatsapp"></i></a>
 </span>
 <span className="span">
-<a href="https://www.linkedin.com/in/ahmed-essam-618055230/" target="_blank" className="aaaSocial li"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://www.linkedin.com/in/ahmed-essam-618055230/" target="_blank" className="aaaSocial li"><i className="fa-brands fa-linkedin-in"></i></a>
 </span>
 <span className="span">
-<a href="https://github.com/ahmed514essam" target="_blank" className="aaaSocial gi"><i class="fa-brands fa-github"></i></a>
+<a href="https://github.com/ahmed514essam" target="_blank" className="aaaSocial gi"><i className="fa-brands fa-github"></i></a>
 </span>
         </div>
    

@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import "./Header.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faBars, faTimes } from "@fortawesome/fontawesome-free-solid";
 
 const Header = () => {
