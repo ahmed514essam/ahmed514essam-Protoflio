@@ -2,11 +2,8 @@ import Root from "./Root";
 import { BrowserRouter , Route , Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './App.css'
+import "./App.css"
+
 
 import ErrorPage from "./ErrorPage/ErrorPage";
 import HomePage from "./pages/HomePage/HomePage";

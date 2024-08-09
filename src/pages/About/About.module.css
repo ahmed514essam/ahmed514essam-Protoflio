@@ -10,7 +10,7 @@
     z-index: 999;
 }
 .MyCardy {
-    width: 40%;
+    width: 50%;
     min-width: 40%;
     padding-top: 40px;
     cursor: pointer;
@@ -40,7 +40,7 @@
 .addressMy {
     font-weight: 800;
     padding-left: 30px;
-    width: 280px;
+    width: 300px;
     padding-top: 20px;
     padding-bottom: 20px;
 }

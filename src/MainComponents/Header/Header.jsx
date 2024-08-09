@@ -17,13 +17,13 @@ const Header = () => {
   };
 
   return (
-    <nav className="mainBG navbar navbar-expand-lg bg-p">
+    <nav className="mainBG navbar navbar-expand-lg bg-p position-fixed">
       <div className="container-fluid">
         <Link className="heads" to="/" onClick={closeMenu}>
           <span className='spanHead'>M</span>y <span className='spanHead'>P</span>rotoflio
         </Link>
         <button
-          className="navbar-toggler"
+          className="border border-info border-3 navbar-toggler"
           type="button"
           aria-controls="navbarNav"
           aria-expanded={!isNavCollapsed}
