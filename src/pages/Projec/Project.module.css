@@ -226,3 +226,20 @@ margin-right: 14rem;
         gap: 50px;
     }
 }
+@media (max-width:499px) {
+
+    .content {
+        width: 100%;
+        
+        margin-right: 25px;
+    }
+    
+
+    .proj {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+
+}

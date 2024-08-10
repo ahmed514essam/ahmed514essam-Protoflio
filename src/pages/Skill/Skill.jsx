@@ -6,7 +6,7 @@ export default function Skill() {
     { name: "HTML5", img: "IconPhoto/html.png" },
     { name: "CSS3", img: "IconPhoto/css.png" },
     { name: "JavaScript", img: "IconPhoto/js.png" },
-    { name: "JSON", img: "/public/IconPhoto/json.png" },
+    { name: "JSON", img: "IconPhoto/json.png" },
     { name: "Bootstrap", img: "IconPhoto/bootstrap.png" },
     { name: "React", img: "IconPhoto/react.png" },
     { name: "Redux", img: "IconPhoto/redux.png" },
