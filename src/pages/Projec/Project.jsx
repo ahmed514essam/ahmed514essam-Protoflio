@@ -73,7 +73,7 @@ export default function Projects() {
       num: "9",
       name: "Simple Cart",
       des: "A simple Cart created using JavaScript only",
-      imge: "projPhoto/simpleCaluclator.png",
+      imge: "projPhoto/cartSimple.png",
       demo: "https://ahmed514essam.github.io/simple-cart/",
       repo: "https://github.com/ahmed514essam/simple-cart.git"
   },
