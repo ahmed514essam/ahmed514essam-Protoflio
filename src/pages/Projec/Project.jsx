@@ -69,6 +69,14 @@ export default function Projects() {
         demo: "https://ahmed514essam.github.io/Simble-Calculator/",
         repo: "https://github.com/ahmed514essam/Simble-Calculator.git"
     },
+    {
+      num: "9",
+      name: "Simple Cart",
+      des: "A simple Cart created using JavaScript only",
+      imge: "projPhoto/simpleCaluclator.png",
+      demo: "https://ahmed514essam.github.io/simple-cart/",
+      repo: "https://github.com/ahmed514essam/simple-cart.git"
+  },
 ]);
 
   let totalProj = projects.length;
