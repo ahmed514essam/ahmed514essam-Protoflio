@@ -71,11 +71,11 @@ export default function Projects() {
     },
     {
       num: "9",
-      name: "Simple Cart",
+      name: "E.Commerce One-Page",
       des: "A simple Cart created using JavaScript only",
-      imge: "projPhoto/cartSimple.png",
-      demo: "https://ahmed514essam.github.io/simple-cart/",
-      repo: "https://github.com/ahmed514essam/simple-cart.git"
+      imge: "/public/projPhoto/last cart.png",
+      demo: "https://ahmed514essam.github.io/E-Commerce-One-Page/",
+      repo: "https://github.com/ahmed514essam/E-Commerce-One-Page.git"
   },
 ]);
 
